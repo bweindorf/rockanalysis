@@ -1,5 +1,5 @@
-# rockanalysis
-Code for Analyzing ISO-10328 Testing Data
+#rockanalysis
+Code for Analyzing ISO-10328 Testing Data Obtained from MTS 
 
 ## Use
 Analyze Class Holds All Data, takes filename as argument
