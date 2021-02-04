@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="rockanalysis",
-    version="0.0.7",
+    version="0.0.8",
     author="Brandon Weindorf",
     author_email="bjweindorf@gmail.com",
     description="ROCK Data Analysis Package",

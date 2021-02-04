@@ -14,11 +14,14 @@ class Analyze():
             return
 
         self.run=True
+
+        # split into list that contains time, force and displacemnt (rstrip removes trailing characters)
         for line in self.file:
             line = line.rstrip().split("\t")
             try:
+                #convert each element in the list to float, then create new list
                 line = list(map(float, line))
-
+               
             except ValueError:
                 continue
 
